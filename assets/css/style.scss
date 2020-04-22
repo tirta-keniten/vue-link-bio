@@ -1,0 +1,23 @@
+body {
+  @apply bg-gray-300;
+}
+
+.profile-container {
+  @apply py-6 bg-white min-h-screen;
+}
+
+.link-list {
+  @apply mt-6 px-3;
+
+  .link-item {
+    @apply bg-orange-200 p-3 my-4 rounded font-bold;
+  }
+}
+
+.grid-list {
+  @apply grid grid-cols-3 mt-6;
+
+  .link-item {
+    border: 1px solid #fff;
+  }
+}
