@@ -19,12 +19,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.img-profile {
-  max-width: 77px;
-  padding: 3px;
-  border: 1px solid #ddd;
-  border-radius: 50%;
-}
-</style>

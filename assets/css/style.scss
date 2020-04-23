@@ -23,5 +23,12 @@ body {
 }
 
 .grid-list-2 {
-  @apply grid grid-cols-2 gap-4 mt-6 p-4;
+  @apply grid grid-cols-2 gap-4 mt-6;
+}
+
+.img-profile {
+  max-width: 77px;
+  padding: 3px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
 }
