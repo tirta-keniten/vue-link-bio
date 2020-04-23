@@ -2,39 +2,27 @@ export const state = () => {
   return {
     all: [
       {
-        title: "Check our Facebook profile!",
-        url: "https://www.facebook.com/",
-        picture: "https://source.unsplash.com/200x200/?spa",
+        title: "Linktree layout",
+        url: "/",
+        picture: "https://source.unsplash.com/200x200/?tree",
         created_at: new Date
       },
       {
-        title: "Check our Twitter profile!",
-        url: "https://www.twitter.com/",
-        picture: "https://source.unsplash.com/200x200/?hotel",
+        title: "Lnk.bio layout",
+        url: "/lnk-bio",
+        picture: "https://source.unsplash.com/200x200/?floor",
         created_at: new Date
       },
       {
-        title: "Check our promos on our official website!",
-        url: "https://www.facebook.com/",
-        picture: "https://source.unsplash.com/200x200/?restaurant",
+        title: "Olapic's tap.sh layout",
+        url: "/tap-sh",
+        picture: "https://source.unsplash.com/200x200/?twin",
         created_at: new Date
       },
       {
-        title: "Top detinations in Bali",
-        url: "https://www.facebook.com/",
-        picture: "https://source.unsplash.com/200x200/?bali",
-        created_at: new Date
-      },
-      {
-        title: "This is how Pantai Kuta looks like during Covid-19 pandemic",
-        url: "https://www.twitter.com/",
-        picture: "https://source.unsplash.com/200x200/?kuta",
-        created_at: new Date
-      },
-      {
-        title: "Shops in Seminyak",
-        url: "https://www.facebook.com/",
-        picture: "https://source.unsplash.com/200x200/?shop",
+        title: "Unsplash: Beatiful free images & pictures",
+        url: "https://unsplash.com/",
+        picture: "https://source.unsplash.com/200x200/?unsplash",
         created_at: new Date
       }
     ]

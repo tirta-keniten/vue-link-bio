@@ -21,3 +21,7 @@ body {
     border: 1px solid #fff;
   }
 }
+
+.grid-list-2 {
+  @apply grid grid-cols-2 gap-4 mt-6 p-4;
+}
