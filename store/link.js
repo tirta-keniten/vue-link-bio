@@ -1,3 +1,5 @@
+import serviceLink from '@/services/link'
+
 export const state = () => {
   return {
     all: [
@@ -25,6 +27,29 @@ export const state = () => {
         picture: "https://source.unsplash.com/200x200/?unsplash",
         created_at: new Date
       }
-    ]
+    ],
+
+    posts: [],
+
+    setting: {}
   }
+}
+
+export const actions = {
+  getLinks ({ commit }, igAccount) {
+    serviceLink.getLinkBio(igAccount).then((res) => {
+      commit('SET_ALL_LINKS', res.data.posts)
+      commit('SET_SETTING', res.data.setting)
+    })
+  }
+}
+
+export const mutations = {
+  SET_ALL_LINKS (state, payload) {
+    state.posts = payload
+  }, 
+
+  SET_SETTING (state, payload) {
+    state.setting = payload
+  }, 
 }

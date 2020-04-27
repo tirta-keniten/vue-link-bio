@@ -4,7 +4,7 @@
       :key="`link-${link_index}`"
       class="link-item">
       <a :href="link.url" target="_blank">
-        <img :src="link.picture">
+        <img :src="link.pictureUrl" :alt="link.title">
       </a>
     </div>
   </div>
@@ -14,7 +14,7 @@
 export default {
   computed: {
     links () {
-      return this.$store.state.link.all
+      return this.$store.state.link.posts.data
     }
   }
 }

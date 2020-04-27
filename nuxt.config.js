@@ -64,6 +64,10 @@ module.exports = {
     extend (config, ctx) {
     }
   },
+
+  env: {
+    serviceBaseUrl: process.env.SERVICE_BASE_URL || 'https://stage-cdb.astadala.net'
+  },
   
   generate: {
     fallback: true
