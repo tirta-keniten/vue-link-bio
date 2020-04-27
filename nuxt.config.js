@@ -1,4 +1,6 @@
 
+require('dotenv').config()
+
 module.exports = {
   mode: 'universal',
   /*
