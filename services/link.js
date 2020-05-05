@@ -1,9 +1,9 @@
 import axios from 'axios'
 
-const baseUrl = process.env.SERVICE_BASE_URL;
+const baseUrl = 'https://stage-cdb.astadala.net'
 
 export default {
   getLinkBio (igAccount) {
-    return axios.get(`${baseUrl}/link-bio-posts/${igAccount}`);
+    return axios.get(`${baseUrl}/link-bio-posts/${igAccount}`)
   }
 }
